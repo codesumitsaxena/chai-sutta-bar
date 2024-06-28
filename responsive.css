@@ -1,0 +1,700 @@
+@media (max-width: 480px) {
+  .navbar-brand img.logo {
+      width: 100px; /* Adjust the logo size for mobile */
+  }
+
+  .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+
+  .nav-item {
+      text-align: center;
+      width: 100%;
+  }
+
+  .nav-link {
+      font-size: 8rem; /* Increase the font size for mobile */
+      padding: 10px;
+  }
+
+  .navbar-collapse {
+      text-align: center;
+  }
+}
+
+  /* Styles for mobile phones */
+  @media (max-width: 480px) {
+    .youtube-video {
+      height: 30vh; /* Adjust height for mobile phones */
+      width: 100vw; /* Adjust border radius for mobile phones */
+    }
+  }
+
+    @media (max-width: 480px) {
+    .untold-story{
+        height: 600px;
+        width: 100%;
+    }
+
+    /* uper wale ki 768 */
+
+    .youtube-video {
+        height: 50vh; /* Adjust height for tablets */
+        width: 100vw; /* Adjust border radius for tablets */
+      }
+
+
+    .untold-img{
+       height: 200px;
+       width: 38%;
+       position: absolute;
+       top: 30%;
+    }
+    .franchise-heading2{
+        text-align: center;
+        font-size: medium;
+    }
+    
+    .welcome-tablet{
+       
+        gap: 30px;
+    }
+    
+    .merchant-md{
+        gap: 30px;
+    }
+      }  
+/* 
+    demo  nice wai ki 768*/
+
+    @media (max-width: 480px) {
+        .untold-story {
+            height: 600px;
+            width: 100%;
+        }
+    
+        .youtube-video {
+            height: 50vh;
+            width: 100vw;
+        }
+    
+        .untold-img {
+            height: 200px;
+            width: 38%;
+            position: absolute;
+            top: 30%;
+        }
+    
+        .franchise-heading2 {
+            text-align: center;
+            font-size: medium;
+        }
+    
+        .welcome-tablet {
+            gap: 30px;
+        }
+    
+        .merchant-md {
+            gap: 30px;
+        }
+    }
+    /* nice wali ki 768 */
+    @media (max-width: 480px) {
+        .header-img {
+          max-width: 100%;
+        }
+        .serving-video {
+            padding: 0;
+            margin: 0;
+            height: 35vh;
+          }
+    
+          .serving-video video {
+            max-width: 100%;
+            height: 35vh;
+          }
+
+          .welcome-tablet {
+            flex-direction: column;
+          }
+    
+          .welcome-btn {
+            width: 100%;
+            margin: 20px 0;
+          }
+    
+          .welcome-img {
+            margin-top: 20px;
+          }
+
+          .welcome-heading {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #672717;
+            text-align: center;
+            padding: 10px 20px;
+           
+          }
+    
+          .welcome-para {
+            font-size: 0.9rem;
+          
+          }
+    
+          .welcome-btn {
+            width: 100%;
+            margin: 10px 0;
+            font-size: 0.9rem;
+            padding: 10px;
+          }
+    
+          .welcome-img {
+            margin-top: 20px;
+            width: 100%;
+          }
+
+          .text-center {
+            font-size: 1.5em;
+          }
+        
+          .uptothe {
+            font-size: 1.5em; 
+            margin-top: 80px;/* Adjust as necessary for smaller screens */
+           
+          }
+       
+        
+          .heading-section {
+            margin-bottom: 0.5em;
+          }
+        
+          .mintues-container {
+            height: auto;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 1fr;
+          }
+        
+          main#carousel {
+            width: 90vw;
+            height: 600px;
+          }
+        
+          div.item {
+            width: 80vw;
+            height: 50vh;
+            transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-80vw * var(--r)));
+          }
+
+          /* Yotube video section */
+
+          .youtube-video{
+            height: 25vh;
+            width: 100vw;
+            object-fit: fill;
+            border-radius: 30px;
+            margin: 30px auto;
+            
+           }
+
+        /* UNtold story */
+        .untold-story {
+          padding: 10px;
+        }
+      
+        .untold-title {
+          font-size: 1.2rem;
+         margin-top: 30px;
+          font-weight: bold;
+          margin-bottom: 15px;
+        }
+      
+        .untold-para {
+          font-size: 0.9rem;
+        }
+      
+        .untold-btn {
+          font-size: 0.9rem;
+          padding: 8px 16px;
+         margin-left: 40px;
+        }
+      
+        .untold-text {
+          text-align: center;
+        }
+      
+        .untold-img {
+       margin-top: 215px;
+       width: 90%;
+       object-fit: cover;
+       padding: 10px 0px ;
+       position: absolute;
+       left: 5%;
+   
+        }
+
+        /* merchant */
+        .merchant-title {
+          font-size: 1.5rem;
+        }
+      
+        .merchant-title2 {
+          font-size: 1.2rem;
+        }
+      
+        .merchant-para {
+          font-size: 0.9rem;
+        margin: 10px 0px;
+        text-align: center; 
+              
+        }
+      
+        .untold-btn1 {
+          font-size: 0.9rem;
+          padding: 8px 16px;
+          position: absolute;
+          left: 17%;
+          margin-top: 490px;
+        }
+      
+        .untold-text {
+          text-align: center;
+        }
+      
+        .merchant-img {
+          height: 250px;
+          width: 100%;
+          margin-top: 50px;
+          
+        }
+
+        /* container-video */
+        .banner-video {
+          width: 100%;
+          height: 30%;
+          border-radius: 10px;
+          object-fit: cover;
+          margin: 20px auto;
+          margin: 0px;
+          padding: 0px;
+        }
+        .cards {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          margin-bottom: 20px;
+        }
+
+        .sexy{
+          height: 500px;
+          margin: 0px;
+          padding: 0px;
+        }
+        .card1{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+        }
+
+        .cards {
+          position: relative;
+          width: 100%;
+          height: 100%;
+    
+        }
+        .franchise-text {
+          font-size: 0.9rem;
+          margin-bottom: 0.5rem;
+        }
+      
+        .franchise-heading2 {
+          font-size: 5px;
+          margin-bottom: 0.75rem;
+        }
+
+        .franchise-button {
+          padding: 0.5rem 0.75rem;
+          font-size: 0.8rem;
+        }
+        
+      }
+      
+/* nice wali ki 768 */
+      @media (max-width: 480px) {
+        footer ul li {
+          font-size: 0.9rem;
+        }
+        
+        .footer-logo {
+          width: 50%;
+        }
+        
+        .subscribe-input {
+          width: calc(100% - 2rem);
+        }
+        
+        .social-link {
+          font-size: 1.2rem;
+        }
+      }
+      
+      @media (max-width: 576px) {
+        .footer-logo {
+          width: 25%;
+        }
+        
+        .subscribe-input {
+          width: calc(100% - 1rem);
+          font-size: 0.9rem;
+        }
+        
+        .subscribe-btn {
+         margin-left: 80px;
+        }
+        
+        .social-link {
+          font-size: 1.5rem;
+         margin-left: 11px;
+          
+        }
+        .india-sbs{
+          text-align: center;
+          font-weight: bold;
+          color: #672717;        }
+
+          
+      }
+
+    
+    
+    @media (max-width: 767.98px) {
+      .navbar-brand .logo {
+        max-width: 60px;
+        height: 50px; /* Further reduce logo size for small screens */
+      }
+      
+      .navbar-toggler {
+        font-size: 1rem; /* Further reduce toggle button size for small screens */
+      }
+    
+      .navbar-nav .nav-link {
+        font-size: 0.7rem; /* Further reduce link font size for small screens */
+      }
+    }
+
+  /* Responsiveness for tablet */
+
+  @media (min-width: 600px) and (max-width: 768px){
+
+    .navbar-nav {
+      flex-direction: row; /* Ensure nav links are in a row on smaller screens */
+      align-items: center; 
+      justify-content: center;/* Center items vertically */
+  }
+
+  .navbar-nav .nav-item {
+      margin-right: 10px; /* Adjust spacing between nav items */
+      margin-bottom: 0; /* Remove bottom margin */
+      
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem; /* Increase font size for nav links */
+    color: #333; /* Optional: Adjust link color */
+}
+
+    .welcome-img{
+      width: 100%;
+      object-fit: cover;
+    margin-top: 20px;
+    }
+
+    .youtube-video{
+      width: 100%;
+      object-fit: cover;
+      height: 60vh;
+      margin-top: 50px;
+    }
+
+    .untold-story{
+      height: 58vh;
+    }
+
+    .untold-img{
+      width: 100%;
+      object-fit: cover;
+      margin-top: 30px;
+    }
+
+    .untold-btn1{
+      margin-left: 230px;
+      margin-bottom: 20px;
+    }
+
+    .merchant-img{
+     width: 100%;
+     object-fit: cover;
+    }
+
+    .banner-video {
+      width: 100%;
+      height: 70%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .franchise-heading2{
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+
+
+  /* contact responsive  */
+
+  @media (max-width: 480px) {
+    .lets {
+        padding: 10px;
+        margin: 10px 0;
+        height: 180px;
+    }
+
+    .lets-title {
+        font-size: 3rem;
+    }
+
+    .lets-title2 {
+        font-size: 2rem;
+    }
+
+    .touch {
+      padding: 10px 0;
+   
+      margin-left: 100px;
+  }
+
+  .touch-heading {
+      font-size: 1.25rem;
+  }
+
+  .touch-para {
+      font-size: 0.875rem;
+  }
+
+  .touch-btn {
+      font-size: 0.875rem;
+      padding: 8px 16px;
+  }
+
+
+  .map {
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-location, .form-area {
+    width: 100%;
+    padding: 0;
+}
+
+.form-heading {
+    font-size: 1.25rem;
+    margin-top: 30px;
+}
+
+.label-area, .input-area, .input-btn {
+    font-size: 0.875rem;
+}
+
+.input-area {
+    padding: 8px;
+    width: 90%;
+}
+
+.input-btn {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+}
+
+.map{
+  width: 100%;
+  height: auto;
+}
+
+.map iframe{
+  height: auto;
+  width: 100%;
+}
+.Franchise{
+  margin-top: 20px;
+  height: auto;
+}
+
+.Franchise h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+}
+/* 
+tablet responsive contact.html */
+@media (min-width: 600px) and (max-width: 768px) {
+  .lets {
+    padding: 20px 10px; /* Adjusted padding */
+    margin: 20px 0;
+    height: 200px;
+}
+
+.lets-title {
+    font-size: 4rem;
+}
+
+.lets-title2 {
+    font-size: 2.5rem;
+}
+
+.touch {
+    padding: 20px 0;
+    margin-left: 0; /* Removed unnecessary margin */
+}
+
+.touch-heading {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.touch-para {
+    font-size: 0.9rem;
+}
+
+.touch-col1{
+  line-height: 0.9;
+  text-align: center;
+ padding: 0px;
+}
+.touch-col{
+  line-height: 0.9;
+  text-align: center;
+ 
+}
+
+.touch-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.map {
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.map-location, .form-area {
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.form-heading {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.label-area, .input-area, .input-btn {
+    font-size: 1rem;
+}
+
+.input-area {
+    padding: 10px;
+    width: 95%;
+}
+
+.input-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
+
+.map iframe {
+    height: auto;
+    width: 100%;
+}
+
+.Franchise {
+    margin-top: 20px;
+    height: auto;
+}
+
+.Franchise h2 {
+    font-size: 28px;
+    text-align: center;
+}
+}
+
+/* FAQ responsive page */
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+
+  .navbar-nav .nav-link {
+    font-size: 1rem; /* Further reduce link font size for small screens */
+  }
+  .wrapper{
+    height: auto;
+    width: 60%;
+    margin-left: 100px;
+    
+  }
+.container2{
+  margin-bottom: 160px;
+}
+  .toggle{
+    text-align: center;
+  
+  }
+
+  .fas{
+    margin-left: 10px;
+  }
+
+  
+ 
+}
+ /* media query of location page for mobile screen */
+@media (max-width: 480px){
+  .location-iframe iframe{
+    height: 280px;
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 600px) and (max-width: 768px){
+  .location-iframe iframe{
+    height: 580px;
+    width: 100%;
+  }
+}
+
+
+ /* media query of location page for mobile screen */
+ @media (max-width: 480px){
+  .privacy-title{
+    font-size: 21px;
+  }
+
+  .privacy{
+    padding: 50px 10%;
+  }
+
+  .mini-para{
+    font-size: 13px;
+  }
+ }
+
